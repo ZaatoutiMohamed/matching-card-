@@ -1,0 +1,77 @@
+
+img {
+    width : 100px;
+}
+
+.cards-container {
+    witdh : 600px;
+    height : 300px;
+    border : 2px solid lavender;
+    display : flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: lavender;
+}
+
+.allCards {
+    width: 100px;
+    position: relative;
+    border : 2px solid lime;
+    height: 200px;
+}
+
+.card {
+    position: absolute;
+    height : 200px;
+    width: 100px;
+    border: 2px solid darkgrey;
+    
+}
+
+.back-img {
+    position: relative;
+    height : 200px;
+    witdh : 200px;
+    border : 2px solid gold;
+}
+
+
+
+.PCards{
+
+    margin-left: 616px;
+    width  : 100px;
+    height : 200px;
+    border : 2px solid lime;
+    display : flex;
+
+      }
+
+.btn {
+
+  width: 15%;
+  height : 50px;
+  margin-left: 560px;
+  background-color: slategrey;
+  color: white;
+  padding:  10px;
+  border-radius: 10px;
+}
+    a{
+  text-decoration: none;
+  color: white
+    }
+
+div#displayCount {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    right: 0;
+}
+
+div#displayCount p {
+    font-size: 40px;
+    font-weight: bold;
+}
